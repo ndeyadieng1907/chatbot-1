@@ -1,19 +1,19 @@
-# 💬 Chatbot template
+# 🗣️ Chatbot Vocal en Wolof - ANSD
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+Ce projet est un **assistant virtuel vocal** en **Wolof**, développé dans le cadre de l'amélioration de l'accès à l'information statistique publique, basé sur les documents de l'ANSD.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+## 🚀 Fonctionnalités
 
-### How to run it on your own machine
+- 🎙️ Reconnait la parole en Wolof
+- 🤖 Répond automatiquement aux questions à l’aide d’un modèle de langage
+- 🗣️ Génère des réponses vocales en Wolof
+- 📂 Indexe des documents PDF, Excel, CSV ou TXT
+- 🧠 Utilise LangChain + FAISS pour la recherche intelligente
+- 🌐 API FastAPI + Interface web via Streamlit
 
-1. Install the requirements
+## 📦 Installation
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+git clone https://github.com/ton_nom_utilisateur/chatbot-wolof.git
+cd chatbot-wolof
+pip install -r requirements.txt
